@@ -1,5 +1,5 @@
 import P from 'prop-types';
-import * as S from './styles';
+import * as Styled from './styles';
 
 export const Heading = ({
   children,
@@ -9,9 +9,14 @@ export const Heading = ({
   uppercase = false,
 }) => {
   return (
-    <S.Title colorDark={colorDark} as={as} size={size} uppercase={uppercase}>
+    <Styled.Title
+      colorDark={colorDark}
+      as={as}
+      size={size}
+      uppercase={uppercase}
+    >
       {children}
-    </S.Title>
+    </Styled.Title>
   );
 };
 
