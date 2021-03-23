@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "landing-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -48,6 +48,16 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/**/*mock*.{js,jsx,ts,tsx}",
+      "!<rootDir>/src/styles/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/**/stories.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/"
     ]
   }
 }

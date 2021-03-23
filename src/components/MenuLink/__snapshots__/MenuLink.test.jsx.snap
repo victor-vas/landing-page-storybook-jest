@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<MenuLink /> should open in a new tab 1`] = `
+exports[`<MenuLink /> should match snapshot 1`] = `
 .c0 {
   display: block;
   -webkit-text-decoration: none;
@@ -14,7 +14,7 @@ exports[`<MenuLink /> should open in a new tab 1`] = `
 .c0::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 0.75rem;
   left: 50%;
   width: 0;
   height: 0.2rem;
