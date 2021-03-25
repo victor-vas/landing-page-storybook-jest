@@ -2,9 +2,9 @@ import P from 'prop-types';
 import * as Styled from './styles';
 import { MenuLink } from '../MenuLink';
 
-export const Navlinks = ({ links = [] }) => {
+export const NavLinks = ({ links = [] }) => {
   return (
-    <Styled.Container>
+    <Styled.Container aria-label="Main menu">
       {links.map((link) => (
         <MenuLink key={link.link} {...link} />
       ))}
@@ -12,7 +12,7 @@ export const Navlinks = ({ links = [] }) => {
   );
 };
 
-Navlinks.propTypes = {
+NavLinks.propTypes = {
   links: P.arrayOf(
     P.shape({
       children: P.string.isRequired,

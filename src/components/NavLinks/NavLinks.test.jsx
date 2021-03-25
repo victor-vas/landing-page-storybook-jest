@@ -1,24 +1,24 @@
 import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/renderTheme';
-import { Navlinks } from '.';
+import { NavLinks } from '.';
 import mock from './mock';
 import { theme } from '../../styles/theme';
 
-describe('<Navlinks />', () => {
+describe('<NavLinks />', () => {
   it('should render links', () => {
-    renderTheme(<Navlinks links={mock} />);
+    renderTheme(<NavLinks links={mock} />);
 
     expect(screen.getAllByRole('link')).toHaveLength(mock.length);
   });
 
   it('should not render links', () => {
-    renderTheme(<Navlinks />);
+    renderTheme(<NavLinks />);
 
     expect(screen.queryAllByText(/links/i)).toHaveLength(0);
   });
 
   it('should render in column when width-max 768px', () => {
-    renderTheme(<Navlinks links={mock} />);
+    renderTheme(<NavLinks links={mock} />);
 
     expect(screen.getByText(/link 10/i).parentElement).toHaveStyleRule(
       'flex-flow',
@@ -30,7 +30,7 @@ describe('<Navlinks />', () => {
   });
 
   it('should match snapshot', () => {
-    const { container } = renderTheme(<Navlinks links={mock} />);
+    const { container } = renderTheme(<NavLinks links={mock} />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
