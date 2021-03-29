@@ -21,13 +21,13 @@ exports[`<GridTwoColumns /> should render two columns grid 1`] = `
   margin-bottom: 4.0rem;
 }
 
-.c0 {
+.c1 {
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
-.c1 {
+.c0 {
   background: #FFFFFF;
   color: #0A1128;
   min-height: 100vh;

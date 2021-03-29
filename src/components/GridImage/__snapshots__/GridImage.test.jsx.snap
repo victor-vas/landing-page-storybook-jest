@@ -37,13 +37,13 @@ exports[`<GridImage /> should render with background 1`] = `
   transform: scale(1.2) rotate(10deg);
 }
 
-.c0 {
+.c1 {
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
-.c1 {
+.c0 {
   background: #FFFFFF;
   color: #0A1128;
   min-height: 100vh;
@@ -184,13 +184,13 @@ exports[`<GridImage /> should render without background 1`] = `
   transform: scale(1.2) rotate(10deg);
 }
 
-.c0 {
+.c1 {
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
-.c1 {
+.c0 {
   background: #FFFFFF;
   color: #0A1128;
   min-height: 100vh;

@@ -11,13 +11,13 @@ exports[`<GridContent /> should render grid content 1`] = `
   margin: 6.4rem 0;
 }
 
-.c0 {
+.c1 {
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
-.c1 {
+.c0 {
   background: #FFFFFF;
   color: #0A1128;
   min-height: 100vh;
@@ -185,13 +185,13 @@ exports[`<GridContent /> should render grid content without background 1`] = `
   margin: 6.4rem 0;
 }
 
-.c0 {
+.c1 {
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
-.c1 {
+.c0 {
   background: #FFFFFF;
   color: #0A1128;
   min-height: 100vh;

@@ -4,9 +4,9 @@ import * as Styled from './styles';
 
 export const SectionBackground = ({ children, background = false }) => {
   return (
-    <SectionContainer>
-      <Styled.Container background={background}>{children}</Styled.Container>
-    </SectionContainer>
+    <Styled.Container background={background}>
+      <SectionContainer>{children}</SectionContainer>
+    </Styled.Container>
   );
 };
 
