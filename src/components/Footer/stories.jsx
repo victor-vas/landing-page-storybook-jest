@@ -4,7 +4,7 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    html: `<p><a href="https://victorvasconcelosse.vercel.app">Feito com ❤ por Victor Vasconcelos</a></p>`,
+    footerHtml: `<p><a href="https://victorvasconcelosse.vercel.app">Feito com ❤ por Victor Vasconcelos</a></p>`,
   },
 };
 
