@@ -4,7 +4,7 @@ export const mapSections = (sections = []) => {
       return mapSectionTwoColumns(section);
     }
 
-    if (section.__component === 'section.section-content') {
+    if (section.__component === 'section.section-cotent') {
       return mapSectionContent(section);
     }
 
