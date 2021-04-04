@@ -3,14 +3,15 @@
 exports[`<Menu /> should not render links 1`] = `
 .c4 {
   max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
 .c7 {
   color: #0A1128;
-  font-size: 6.4rem;
-  text-transform: none;
+  font-size: 2.4rem;
+  text-transform: uppercase;
 }
 
 .c2 {
@@ -85,7 +86,7 @@ exports[`<Menu /> should not render links 1`] = `
 }
 
 .c8 > img {
-  max-height: 3rem;
+  height: 3rem;
 }
 
 .c9 {
@@ -103,12 +104,6 @@ exports[`<Menu /> should not render links 1`] = `
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
-}
-
-@media (max-width:768px) {
-  .c7 {
-    font-size: 4.0rem;
-  }
 }
 
 @media (max-width:768px) {
@@ -234,14 +229,15 @@ exports[`<Menu /> should not render links 1`] = `
 exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 .c4 {
   max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
 .c7 {
   color: #0A1128;
-  font-size: 6.4rem;
-  text-transform: none;
+  font-size: 2.4rem;
+  text-transform: uppercase;
 }
 
 .c2 {
@@ -316,7 +312,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 }
 
 .c8 > img {
-  max-height: 3rem;
+  height: 3rem;
 }
 
 .c9 {
@@ -361,12 +357,6 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
-}
-
-@media (max-width:768px) {
-  .c7 {
-    font-size: 4.0rem;
-  }
 }
 
 @media (max-width:768px) {

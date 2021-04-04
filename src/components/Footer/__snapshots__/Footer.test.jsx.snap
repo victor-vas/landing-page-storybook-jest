@@ -7,6 +7,7 @@ exports[`<Footer /> should render 1`] = `
 
 .c2 {
   max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
   padding: 3.2rem;
 }
